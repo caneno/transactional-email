@@ -1,0 +1,523 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html {
+  li {
+    list-style: none;
+  }
+}
+
+/* ---------------------------HEADER------------------- */
+.left-nav-item {
+  padding-left: 16px !important;
+}
+.right-nav-container {
+  padding: 1.1% 0px 0px 0px !important;
+
+  .nav-items {
+    text-align: center;
+    font-size: 14px;
+    color: #15c;
+    border-right: solid $black 1px;
+  }
+
+  .nav-acct {
+    border-right: none;
+    margin-left: 0;
+  }
+
+  .divider {
+    width: 5px !important;
+
+    .mid-line {
+      text-align: center;
+    }
+  }
+}
+
+/* ---------------------------FIRST ITEM IN BODY----------------------- */
+.destination-bg {
+  background: url("https://res.cloudinary.com/rayray89/image/upload/v1566485981/Transactional%20email%20Images/sacbridge_uxontg.png");
+  background-image: url("https://res.cloudinary.com/rayray89/image/upload/v1566485981/Transactional%20email%20Images/sacbridge_uxontg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 0px !important;
+  vertical-align: bottom;
+
+  .dest-info {
+    background: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 0px;
+
+    div {
+      padding-top: 16px;
+      padding-left: 16px;
+      color: $dark-gray;
+      font-size: 13px;
+    }
+
+    .flight-dest {
+      padding-top: 5px;
+    }
+
+    ul {
+      padding-left: 16px;
+      margin: 0px;
+
+      li {
+        font-size: 34px;
+        color: $dark-font;
+
+        display: inline-block;
+      }
+    }
+
+    .dest-right {
+      padding-top: 16px;
+      .itenerary-btn {
+        border: solid 1px $dark-gray !important;
+        font-size: 14px;
+        padding: 5px 0 5px 0;
+        text-align: center;
+        width: 119px;
+
+        a {
+          text-decoration: none;
+          color: $primary-font;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+/* --------------------------- SECOND ITEM IN BODY--------------------- */
+.conf-container,
+.pass-conf {
+  background: $white !important;
+  background-color: $white !important;
+  padding-bottom: 0px !important;
+  ul {
+    padding-left: 16px;
+    li:nth-child(3n + 2) {
+      color: $dark-gray;
+      font-weight: bold;
+    }
+    li:nth-child(3n + 3) {
+      font-weight: bold;
+      color: $dark-font;
+    }
+    li {
+      margin-bottom: 5px;
+      font-size: 13px;
+      span {
+        color: $green-font;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+/* ----------------------SUB HEADING--------------------- */
+.sub-heading {
+  padding: 10px 0px 10px 0px !important;
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    color: $dark-font;
+    margin-bottom: 0px;
+  }
+}
+/* --------------------------------------HOTEL CAR CHECKIN REWARDS GRID--------------------------- */
+
+.square-content {
+  padding: 15px 15px 0 15px !important;
+  img {
+    width: 40px;
+    padding-bottom: 25px;
+  }
+}
+
+p:nth-child(1) {
+  font-weight: bold;
+}
+p:nth-child(2) {
+  font-size: 13px;
+}
+p:nth-child(3),
+a {
+  text-align: end;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.mid-content {
+  padding-bottom: 50px;
+}
+.first-row {
+  margin-bottom: 18px !important;
+
+  .hotel {
+    background: $light-bluebg;
+    width: 290px;
+    padding-right: 16px;
+    padding-left: 16px !important;
+    p,
+    a {
+      color: $primary-font;
+    }
+  }
+
+  .car-rental {
+    background: $dark-bluebg;
+    width: 290px;
+    padding-left: 16px;
+    padding-right: 16px !important;
+    padding-bottom: 5px;
+    p {
+      color: $white-var;
+    }
+    .buttom-content {
+      .btm-items {
+        padding-top: 10px;
+        padding-bottom: 0px;
+      }
+      img {
+        display: inline-block;
+        width: 105px;
+        padding: 0px 0px 0px 10px;
+      }
+      p {
+        font-size: 16px;
+        text-align: end;
+        width: 83px;
+        a {
+          text-align: end;
+          color: $white-var;
+        }
+      }
+    }
+  }
+}
+.mid-space {
+  width: 20px !important;
+  padding: 0px !important;
+}
+.second-row {
+  img {
+    width: 40px;
+  }
+  p:nth-child(1) {
+    font-weight: bold;
+  }
+  .early-bird {
+    background: $orange-bg;
+    padding-right: 16px;
+    padding-left: 16px !important;
+    .mid-content {
+      padding-bottom: 16px;
+      p {
+        color: $white-var;
+      }
+    }
+    a {
+      color: $white-var;
+    }
+  }
+  .rewards {
+    background: $yellow-bg;
+    padding-bottom: 0px !important;
+    padding-left: 16px;
+    padding-right: 16px !important;
+    a {
+      color: $dark-font;
+    }
+  }
+  .questions {
+    background: $primary-font;
+    background-color: $primary-font;
+    padding: 0px 16px 16px 16px !important;
+    img {
+      width: 23px;
+      padding-bottom: 18px;
+    }
+    p,
+    a {
+      color: $white-var;
+    }
+    .mid-content {
+      padding-bottom: 27px;
+    }
+  }
+  .review-pol {
+    background: $alt-light-bluebg;
+    background-color: $alt-light-bluebg;
+    padding: 0px 16px 16px 16px !important;
+    img {
+      padding-bottom: 17px;
+    }
+    p,
+    a {
+      color: $dark-font;
+    }
+    .mid-content {
+      padding-bottom: 10px;
+    }
+  }
+}
+.last-row {
+  background: $mid-blue-bg;
+  background-color: $mid-blue-bg;
+
+  margin-top: 18px !important;
+  .left-cont {
+    padding: 35px 0px 0px 0px !important;
+    width: 69px;
+    img {
+      width: 52px;
+      margin-left: 16px;
+    }
+  }
+
+  .right-cont {
+    padding: 20px 16px 20px !important;
+    p {
+      margin-bottom: 0px;
+      color: $white-var;
+    }
+    p:nth-child(1) {
+      font-size: 20px;
+    }
+    .last-p {
+      text-align: end;
+      font-size: 16px;
+      a {
+        color: $white-var;
+      }
+    }
+    .mid-content {
+      padding-bottom: 13px;
+    }
+  }
+}
+/* ---------------------------FOOTER BRIDGE-------------------- */
+.footer-bridge {
+  padding: 12px 16px 0px 0px !important;
+  p {
+    margin-bottom: 3px;
+    text-align: left;
+  }
+  .contact {
+    p:nth-child(1) {
+      font-size: 14px;
+      color: $dark-gray;
+    }
+    p:nth-child(2) {
+      font-size: 14px;
+      a {
+        color: $primary-font;
+      }
+    }
+    p:nth-child(3) {
+      font-size: 13px;
+      font-weight: 400;
+      color: $primary-font;
+      a {
+        color: $primary-font;
+        text-decoration: none;
+        font-weight: 400;
+      }
+    }
+  }
+  .social {
+    padding-bottom: 0px;
+    p {
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    img {
+      width: 18px;
+      display: inline-block;
+      padding-right: 8px;
+    }
+  }
+  .mobile-app {
+    p {
+      margin-bottom: 0px;
+      font-size: 13px;
+      color: $primary-font;
+    }
+    img {
+      width: 15px;
+      padding-bottom: 5px;
+    }
+  }
+}
+/* ---------------------------------FOOTER------------------ */
+.footer-container {
+  .footer-body {
+    padding-left: 0px !important;
+    p {
+      font-size: 10px;
+      font-weight: 400;
+      color: $dark-gray;
+      text-align: left;
+    }
+  }
+}
+
+/* ---------------------------HEADER MOBILE SECTION------------------- */
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+  .header-container {
+    .left-nav-item {
+      padding-bottom: 5px;
+      padding-left: 1px;
+      img {
+        padding-bottom: 0px;
+      }
+    }
+    .right-nav-container {
+      padding-bottom: 0px;
+    }
+    .nav-items {
+      text-align: left;
+      width: 100px;
+    }
+  }
+  /* --------------------------------------------MOBILE BODY---------------------------- */
+  .destination-bg {
+    .dest-info {
+      .flight-location {
+        img {
+          padding: 0px 5px 0px 5px;
+        }
+        .flight-date {
+          font-weight: bold;
+        }
+      }
+      .dest-right {
+        padding-top: 0px;
+        .itenerary-btn {
+          width: 365px;
+          margin-left: 12px;
+          padding: 15px 0px 15px 0px;
+        }
+      }
+    }
+  }
+
+  .conf-container {
+    .pass-conf {
+      padding-top: 0px;
+      padding-left: 16px;
+    }
+  }
+  /* ------------------------------------------COLOR GRID EXPANDED-------------------- */
+  .square-content {
+    th {
+      padding: 0px 16px 0px 16px;
+    }
+    img {
+      width: 40px !important;
+      margin-left: 150px;
+    }
+    p {
+      text-align: center;
+    }
+    span {
+      display: none;
+    }
+    .mid-content {
+      padding-bottom: 0px;
+    }
+  }
+  .hotel {
+    margin-bottom: 10px !important;
+    p:nth-child(3) {
+      border: solid 1px $primary-font;
+      padding: 16px 0 16px;
+    }
+  }
+  .car-rental {
+    margin-bottom: -8px !important;
+    .btm-items {
+      p {
+        width: 100% !important;
+        border: solid 1px $white-var;
+        padding: 16px 0 16px;
+        text-align: center !important;
+
+      }
+    }
+  }
+  .early-bird{
+    margin-bottom: 10px !important;
+    p:nth-child(3) {
+      border: solid 1px $white-var;
+      padding: 16px 0 16px;
+    }
+  }
+  .rewards{
+    .square-content{
+      padding-bottom: 16px !important;
+    }
+    p:nth-child(3) {
+      border: solid 1px $dark-font;
+      padding: 16px 0 16px;
+    }
+  }
+  .questions{
+    margin-bottom: 10px !important;
+    p:nth-child(3) {
+      border: solid 1px $white-var;
+      padding: 16px 0 16px;
+    }
+  }
+  .review-pol{
+    p:nth-child(3) {
+      border: solid 1px $dark-font;
+      padding: 16px 0 16px;
+    }
+  }
+  .last-row {
+    p{
+      text-align: center;
+    }
+    img{
+      margin-left: 165px !important;
+    }
+    .right-cont{
+      .last-p{
+        text-align: center;
+        border: solid 1px $white-var;
+        padding: 16px 0 16px;
+        margin: 0px 16px 0px 16px;
+      }
+    }
+    span {
+      display: none;
+    }
+  }
+  .contact{
+    border-bottom: 1px solid $medium-gray;
+    padding-bottom: 8px !important;
+    margin-bottom: 10px !important;
+  }
+  .social{
+    border-bottom: 1px solid $medium-gray;
+    padding-bottom: 8px !important;
+    margin-bottom: 10px !important;
+  }
+  .mobile-app{
+    border-bottom: 1px solid $medium-gray;
+    padding-bottom: 8px !important;
+    margin-bottom: 10px !important;
+  }
+  
+}
